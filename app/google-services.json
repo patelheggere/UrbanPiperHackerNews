@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1071236073383",
+    "firebase_url": "https://urban-piper-hacker-news.firebaseio.com",
+    "project_id": "urban-piper-hacker-news",
+    "storage_bucket": "urban-piper-hacker-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071236073383:android:af88a5471c191989",
+        "android_client_info": {
+          "package_name": "com.patelheggere.urbanpiperhackernews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071236073383-hbvfalo94a8mcurmc0pgv7fb26kksab3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patelheggere.urbanpiperhackernews",
+            "certificate_hash": "2a5c2ceeddabf2c5dcdf83ac5bdf9321c96a626f"
+          }
+        },
+        {
+          "client_id": "1071236073383-7k4pf81h3gv1ojjkk9ubqv7401cfvrfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVHAL55BrB2NOjTxK5KJLkluPIgeA9hgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071236073383-7k4pf81h3gv1ojjkk9ubqv7401cfvrfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
