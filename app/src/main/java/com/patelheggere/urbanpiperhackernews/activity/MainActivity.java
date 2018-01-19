@@ -4,25 +4,11 @@ import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.patelheggere.urbanpiperhackernews.R;
 import com.patelheggere.urbanpiperhackernews.adapter.StoriesAdapter;
-import com.patelheggere.urbanpiperhackernews.singletons.MySingletonClass;
 import com.patelheggere.urbanpiperhackernews.util.AppConstants;
 
-import org.json.JSONArray;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -35,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private RecyclerView mStoriesRecyclerView;
     private StoriesAdapter mStoriesAdapter;
-    private DatabaseReference mFireBaseRefGroup;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
