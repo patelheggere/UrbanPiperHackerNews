@@ -32,6 +32,9 @@ import com.patelheggere.urbanpiperhackernews.R;
 import java.util.concurrent.TimeUnit;
 
 
+/**
+ * Created by Patel Heggere on 1/19/2018.
+ */
 public class PhoneAuthActivity extends AppCompatActivity implements
         View.OnClickListener , AdapterView.OnItemSelectedListener{
 

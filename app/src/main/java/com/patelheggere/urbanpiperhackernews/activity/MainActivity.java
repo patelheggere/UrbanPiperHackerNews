@@ -16,6 +16,11 @@ import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+
+/**
+ * Created by Patel Heggere on 1/19/2018.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
@@ -28,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initializeUIComponents();
-        new MyTask().execute();
-
+        new MyTask().execute();     //getting top stories
     }
 
     private void initializeUIComponents()
@@ -55,7 +59,13 @@ public class MainActivity extends AppCompatActivity {
             while (data != -1) {
                 char current = (char) data;
                 data = isw.read();
-               str+= current;
+                if(current=='[' || current==']')
+                {
+
+                }
+                    else{
+                    str += current;
+                }
             }
             System.out.println("data:"+str);
         } catch (Exception e) {

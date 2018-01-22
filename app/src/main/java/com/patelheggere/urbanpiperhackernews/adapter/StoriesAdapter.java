@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.patelheggere.urbanpiperhackernews.R;
 import com.patelheggere.urbanpiperhackernews.model.TopStoriesModel;
-
 import java.util.List;
 
 
